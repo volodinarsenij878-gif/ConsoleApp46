@@ -1,0 +1,17 @@
+﻿    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    namespace Program46
+    {
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 17 / 5;   // 3 (целочисленное деление)
+            int y = 17 % 5;   // 2 (остаток)
+            Console.WriteLine($"x = {x}, y = {y}"); // x = 3, y = 2
+        }
+        }
